@@ -1,0 +1,25 @@
+.principal
+{
+    background-color: blueviolet;
+    /*display: inline-block;*/
+    display: flex; /* "flex": cajas flexible o manejables*/
+    flex-direction: row; /* "row": las cajas se organizan_"row-reverse": se invierte_"column":se organiza en columnas_"column-reverse":se invierte*/
+    flex-wrap: wrap; /*mantiene la cantidad la cantidad de cajas_"wrap": mantiene las cajas sin deformarlas_ "wrap-reverse": lo mismo pero al reves*/
+}
+.caja
+{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    margin: 5px; /*tamaño de margen*/
+}
+.contenedor
+{
+    background-color: blue;
+    display: flex;
+}
+.caja2
+{
+    background-color: brown;
+    margin: 5px;
+}
